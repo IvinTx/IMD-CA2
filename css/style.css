@@ -58,7 +58,7 @@ main {
 .education {
     margin: 2em;
     padding: 2em;
-    background-color: cadetblue;
+    background-color: rgb(255, 255, 255);
 }
 
 .projects {
