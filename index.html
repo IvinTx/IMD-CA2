@@ -10,286 +10,68 @@
 </head>
 <body>
     <header>
-        <ul class="nav sticky-top justify-content-center bg-dark">
-            <li class="nav-item">
-                <a class="nav-link text-light" href="#">About</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link text-light" href="#">Work Experience</a>
-            </li>
-            <li class="nav-item">
-                <!--<a class="nav-link text-light" aria-current="page" href="#">Active</a>-->
-                <a class="nav-link" href="#">
-                    <img src="./img/intellijlogo.png" alt="" width="30" height="24">
-                </a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link text-light" href="#">Education</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link text-light" href="#">Contact</a>
-            </li>
+      <nav id="website_navbar" class="navbar navbar-light bg-light">
+        <a class="nav-link" href="#">
+          <img src="./img/intellijlogo.png" alt="" width="30" height="24">
+        </a>
+        <ul class="nav nav-pills">
+          <li class="nav-item">
+            <a class="nav-link text-dark" href="#aboutme_id">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-dark" href="#workexperience_id">Work Experience</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-dark" href="#education_id">Education</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-dark" href="#contactme_id">Contact</a>
+          </li>
         </ul>
+      </nav>
     </header>
-
+    
     <main>
-        <div class="hero">
-            <section class="hero-text">
-                <img src="./img/Ivin-turning-right.png" class="img-circle" alt="Headshot">
-                <h2>Ivin Joshi</h2>
-                <p>Lorem ipsum dolor sit amet</p>
-            </section>
-        </div>
+          <div class="hero" id="hero_id">
+              <section class="hero-text">
+                  <img src="./img/silhouette-man-image.png" class="img-circle" alt="Headshot">
+                  <h2>Ivin Joshi</h2>
+                  <p>Lorem ipsum dolor sit amet</p>
+              </section>
+          </div>
 
-        <div class="aboutme">
-            <section class="aboutme-text">
-                <h2>About Section</h2>
-                <p>Lorem ipsum dolor sit amet</p>
-            </section>
-        </div>
+          <div class="aboutme" id="aboutme_id">
+              <section class="aboutme-text">
+                  <h2>About Section</h2>
+                  <p>Lorem ipsum dolor sit amet</p>
+              </section>
+          </div>
 
-        <div class="workexperience">
-            <section class="workexperience-text">
-                <h2>Work Experience Section</h2>
-                <div class="workexperienceAWS">
-                    <img img src="./img/aws_logo.png" alt="AWS Logo" id="awslogo" class="rounded float-start">
-                    <p>AWS Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veritatis nam, neque consequatur exercitationem assumenda, libero totam soluta earum numquam dolorem distinctio harum iste repellendus quia commodi minima quis facere a ipsa ea officia aliquam alias? Consectetur, commodi est, voluptates totam facere cupiditate voluptatem mollitia, ullam ab tenetur aliquam. Incidunt adipisci voluptatem odit? Voluptatum facilis ex rem maxime, animi nobis incidunt voluptate aliquam, laudantium quo non minus veniam iusto dolorem dignissimos sint reiciendis facere repudiandae saepe. Ipsa explicabo necessitatibus illum porro esse, veritatis, commodi ratione modi quis id, dolor aliquam! Atque voluptas temporibus, illo rerum magni iure saepe vero magnam itaque.</p>
-                </div>
-                <p>Lorem ipsum dolor sit amet</p>
-            </section>
-        </div>
+          <div class="workexperience" id="workexperience_id">
+              <section class="workexperience-text">
+                  <h2>Work Experience Section</h2>
+                  <div class="workexperienceAWS">
+                      <img img src="./img/aws_logo.png" alt="AWS Logo" id="awslogo" class="rounded float-start">
+                      <p>AWS Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veritatis nam, neque consequatur exercitationem assumenda, libero totam soluta earum numquam dolorem distinctio harum iste repellendus quia commodi minima quis facere a ipsa ea officia aliquam alias? Consectetur, commodi est, voluptates totam facere cupiditate voluptatem mollitia, ullam ab tenetur aliquam. Incidunt adipisci voluptatem odit? Voluptatum facilis ex rem maxime, animi nobis incidunt voluptate aliquam, laudantium quo non minus veniam iusto dolorem dignissimos sint reiciendis facere repudiandae saepe. Ipsa explicabo necessitatibus illum porro esse, veritatis, commodi ratione modi quis id, dolor aliquam! Atque voluptas temporibus, illo rerum magni iure saepe vero magnam itaque.</p>
+                  </div>
+                  <p>Lorem ipsum dolor sit amet</p>
+              </section>
+          </div>
 
-        <div class="education">
-            <section class="education-text">
-                <h2>Education Section</h2>
-                <div class="educationTuDublin">
-                    <img img src="./img/TU_Dublin_Logo.png" alt="TU Dublin Logo" id="tudlogo">
-                    <p>TU Dublin Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veritatis nam, neque consequatur exercitationem assumenda, libero totam soluta earum numquam dolorem distinctio harum iste repellendus quia commodi minima quis facere a ipsa ea officia aliquam alias? Consectetur, commodi est, voluptates totam facere cupiditate voluptatem mollitia, ullam ab tenetur aliquam. Incidunt adipisci voluptatem odit? Voluptatum facilis ex rem maxime, animi nobis incidunt voluptate aliquam, laudantium quo non minus veniam iusto dolorem dignissimos sint reiciendis facere repudiandae saepe. Ipsa explicabo necessitatibus illum porro esse, veritatis, commodi ratione modi quis id, dolor aliquam! Atque voluptas temporibus, illo rerum magni iure saepe vero magnam itaque.</p>
-                    <div class="accordion" id="tudAccordion">
-                        <div class="accordion-item">
-                          <h2 class="accordion-header" id="headingOne">
-                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#CollapseOneTUD" aria-expanded="true" aria-controls="CollapseOneTUD">
-                              Year 4
-                            </button>
-                          </h2>
-                          <div id="CollapseOneTUD" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#tudAccordion">
-                            <div class="accordion-body">
-                              <table class="table">
-                                <thead>
-                                  <tr>
-                                    <th scope="col">Module</th>
-                                    <th scope="col">Grade</th>
-                                    <th scope="col">Credits</th>
-                                  </tr>
-                                </thead>
-                                <tbody>
-                                  <tr>
-                                    <td>Interactive Media Design & Visualisation</td>
-                                    <td>Available on Feb 2023</td>
-                                    <td>5</td>
-                                  </tr>
-                                  <tr>
-                                    <td>Private Cloud Architecture</td>
-                                    <td>Available on Feb 2023</td>
-                                    <td>5</td>
-                                  </tr>
-                                  <tr>
-                                    <td>Security for the cloud and IoT</td>
-                                    <td>Available on Feb 2023</td>
-                                    <td>5</td>
-                                  </tr>
-                                  <tr>
-                                    <td>Information Management</td>
-                                    <td>Available on Feb 2023</td>
-                                    <td>5</td>
-                                  </tr>
-                                  <tr>
-                                    <td>DevOps - Continuous Integration and Deployment</td>
-                                    <td>Available on Feb 2023</td>
-                                    <td>5</td>
-                                  </tr>
-                                  <tr>
-                                    <td>Enterprise Performance Architecture</td>
-                                    <td>Available on Feb 2023</td>
-                                    <td>5</td>
-                                  </tr>
-                                  <tr>
-                                    <td>IT Governance and Quality</td>
-                                    <td>Available on Sept 2023</td>
-                                    <td>5</td>
-                                  </tr>
-                                  <tr>
-                                    <td>Operations Research</td>
-                                    <td>Available on Sept 2023</td>
-                                    <td>5</td>
-                                  </tr>
-                                  <tr>
-                                    <td>Advanced Cloud Provisioning & Networking</td>
-                                    <td>Available on Sept 2023</td>
-                                    <td>5</td>
-                                  </tr>
-                                  <tr>
-                                    <td>Architecting on the Public Cloud</td>
-                                    <td>Available on Sept 2023</td>
-                                    <td>5</td>
-                                  </tr>
-                                  <tr>
-                                    <td>Fourth Year Project</td>
-                                    <td>Available on Sept 2023</td>
-                                    <td>10</td>
-                                  </tr>
-                                </tbody>
-                              </table>                            
-                            </div>
-                          </div>
-                        </div>
-                        <div class="accordion-item">
-                          <h2 class="accordion-header" id="headingTwo">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#CollapseTwoTUD" aria-expanded="false" aria-controls="CollapseTwoTUD">
-                              Year 3
-                            </button>
-                          </h2>
-                          <div id="CollapseTwoTUD" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#tudAccordion">
-                            <div class="accordion-body">
-                              <table class="table">
-                                <thead>
-                                  <tr>
-                                    <th scope="col">Module</th>
-                                    <th scope="col">Grade</th>
-                                    <th scope="col">Credits</th>
-                                  </tr>
-                                </thead>
-                                <tbody>
-                                  <tr>
-                                    <td>Cloud Services & Distributed Computing</td>
-                                    <td>A</td>
-                                    <td>5</td>
-                                  </tr>
-                                  <tr>
-                                    <td>Big Data Technologies</td>
-                                    <td>A</td>
-                                    <td>5</td>
-                                  </tr>
-                                  <tr>
-                                    <td>Advanced Routing & Switching</td>
-                                    <td>A</td>
-                                    <td>5</td>
-                                  </tr>
-                                  <tr>
-                                    <td>Server-Side Web Development</td>
-                                    <td>A</td>
-                                    <td>5</td>
-                                  </tr>
-                                  <tr>
-                                    <td>Operating Systems</td>
-                                    <td>A</td>
-                                    <td>5</td>
-                                  </tr>
-                                  <tr>
-                                    <td>Internship</td>
-                                    <td>PASS</td>
-                                    <td>30</td>
-                                  </tr>
-                                </tbody>
-                              </table>                              
-                            </div>
-                          </div>
-                        </div>
-                        <div class="accordion-item">
-                          <h2 class="accordion-header" id="headingThree">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#CollapseThreeTUD" aria-expanded="false" aria-controls="CollapseThreeTUD">
-                              Year 2
-                            </button>
-                          </h2>
-                          <div id="CollapseThreeTUD" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#tudAccordion">
-                            <div class="accordion-body">
-                              <table class="table">
-                                <thead>
-                                  <tr>
-                                    <th scope="col">Module</th>
-                                    <th scope="col">Grade</th>
-                                    <th scope="col">Credits</th>
-                                  </tr>
-                                </thead>
-                                <tbody>
-                                  <tr>
-                                    <td>Data Administration and Analysis</td>
-                                    <td>A</td>
-                                    <td>5</td>
-                                  </tr>
-                                  <tr>
-                                    <td>Management Science</td>
-                                    <td>A</td>
-                                    <td>5</td>
-                                  </tr>
-                                  <tr>
-                                    <td>Routing & Switching Essentials</td>
-                                    <td>A</td>
-                                    <td>5</td>
-                                  </tr>
-                                  <tr>
-                                    <td>Information Security</td>
-                                    <td>A</td>
-                                    <td>5</td>
-                                  </tr>
-                                  <tr>
-                                    <td>IT Service Management</td>
-                                    <td>B+</td>
-                                    <td>5</td>
-                                  </tr>
-                                  <tr>
-                                    <td>Second Year Project</td>
-                                    <td>A</td>
-                                    <td>5</td>
-                                  </tr>
-                                  <tr>
-                                    <td>Discrete Mathematics 2</td>
-                                    <td>A</td>
-                                    <td>5</td>
-                                  </tr>
-                                  <tr>
-                                    <td>Network Fundamentals</td>
-                                    <td>A</td>
-                                    <td>5</td>
-                                  </tr>
-                                  <tr>
-                                    <td>Software Quality Assurance and Testing</td>
-                                    <td>A</td>
-                                    <td>5</td>
-                                  </tr>
-                                  <tr>
-                                    <td>Client-Side Web Development</td>
-                                    <td>A</td>
-                                    <td>5</td>
-                                  </tr>
-                                  <tr>
-                                    <td>Advanced Database Technologies</td>
-                                    <td>A</td>
-                                    <td>5</td>
-                                  </tr>
-                                  <tr>
-                                    <td>IT Scripting & Automation</td>
-                                    <td>A</td>
-                                    <td>5</td>
-                                  </tr>
-                                </tbody>
-                              </table>                              
-                            </div>
-                          </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="educationCCT">
-                    <img img src="./img/CCT_Logo.jpg" alt="CCT Logo" id="cctlogo">
-                    <p>CCT Logo Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veritatis nam, neque consequatur exercitationem assumenda, libero totam soluta earum numquam dolorem distinctio harum iste repellendus quia commodi minima quis facere a ipsa ea officia aliquam alias? Consectetur, commodi est, voluptates totam facere cupiditate voluptatem mollitia, ullam ab tenetur aliquam. Incidunt adipisci voluptatem odit? Voluptatum facilis ex rem maxime, animi nobis incidunt voluptate aliquam, laudantium quo non minus veniam iusto dolorem dignissimos sint reiciendis facere repudiandae saepe. Ipsa explicabo necessitatibus illum porro esse, veritatis, commodi ratione modi quis id, dolor aliquam! Atque voluptas temporibus, illo rerum magni iure saepe vero magnam itaque.</p>
-                    <div class="accordion" id="cctAccordion">
-                        <div class="accordion-item">
+          <div class="education" id="education_id">
+              <section class="education-text">
+                  <h2>Education Section</h2>
+                  <div class="educationTuDublin">
+                      <img img src="./img/TU_Dublin_Logo.png" alt="TU Dublin Logo" id="tudlogo">
+                      <p>TU Dublin Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veritatis nam, neque consequatur exercitationem assumenda, libero totam soluta earum numquam dolorem distinctio harum iste repellendus quia commodi minima quis facere a ipsa ea officia aliquam alias? Consectetur, commodi est, voluptates totam facere cupiditate voluptatem mollitia, ullam ab tenetur aliquam. Incidunt adipisci voluptatem odit? Voluptatum facilis ex rem maxime, animi nobis incidunt voluptate aliquam, laudantium quo non minus veniam iusto dolorem dignissimos sint reiciendis facere repudiandae saepe. Ipsa explicabo necessitatibus illum porro esse, veritatis, commodi ratione modi quis id, dolor aliquam! Atque voluptas temporibus, illo rerum magni iure saepe vero magnam itaque.</p>
+                      <div class="accordion" id="tudAccordion">
+                          <div class="accordion-item">
                             <h2 class="accordion-header" id="headingOne">
-                              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#CollapseOneCCT" aria-expanded="true" aria-controls="CollapseOneCCT">
-                                Year 1
+                              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#CollapseOneTUD" aria-expanded="true" aria-controls="CollapseOneTUD">
+                                Year 4
                               </button>
                             </h2>
-                            <div id="CollapseOneCCT" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#tudAccordion">
+                            <div id="CollapseOneTUD" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#tudAccordion">
                               <div class="accordion-body">
                                 <table class="table">
                                   <thead>
@@ -301,94 +83,332 @@
                                   </thead>
                                   <tbody>
                                     <tr>
-                                      <td>Data Communications</td>
-                                      <td>88</td>
+                                      <td>Interactive Media Design & Visualisation</td>
+                                      <td>Available on Feb 2023</td>
                                       <td>5</td>
                                     </tr>
                                     <tr>
-                                      <td>Computing Systems and Principles</td>
-                                      <td>93</td>
+                                      <td>Private Cloud Architecture</td>
+                                      <td>Available on Feb 2023</td>
                                       <td>5</td>
                                     </tr>
                                     <tr>
-                                      <td>Digital Technology and Learning</td>
-                                      <td>71</td>
+                                      <td>Security for the cloud and IoT</td>
+                                      <td>Available on Feb 2023</td>
                                       <td>5</td>
                                     </tr>
                                     <tr>
-                                      <td>Web Design</td>
-                                      <td>71</td>
+                                      <td>Information Management</td>
+                                      <td>Available on Feb 2023</td>
                                       <td>5</td>
                                     </tr>
                                     <tr>
-                                      <td>Network Technology</td>
-                                      <td>79</td>
+                                      <td>DevOps - Continuous Integration and Deployment</td>
+                                      <td>Available on Feb 2023</td>
                                       <td>5</td>
                                     </tr>
                                     <tr>
-                                      <td>Business Information Systems</td>
-                                      <td>80</td>
+                                      <td>Enterprise Performance Architecture</td>
+                                      <td>Available on Feb 2023</td>
                                       <td>5</td>
                                     </tr>
                                     <tr>
-                                      <td>Computer Programming</td>
-                                      <td>53</td>
-                                      <td>15</td>
+                                      <td>IT Governance and Quality</td>
+                                      <td>Available on Sept 2023</td>
+                                      <td>5</td>
                                     </tr>
                                     <tr>
-                                      <td>Mathematics for Computing</td>
-                                      <td>79</td>
-                                      <td>15</td>
+                                      <td>Operations Research</td>
+                                      <td>Available on Sept 2023</td>
+                                      <td>5</td>
+                                    </tr>
+                                    <tr>
+                                      <td>Advanced Cloud Provisioning & Networking</td>
+                                      <td>Available on Sept 2023</td>
+                                      <td>5</td>
+                                    </tr>
+                                    <tr>
+                                      <td>Architecting on the Public Cloud</td>
+                                      <td>Available on Sept 2023</td>
+                                      <td>5</td>
+                                    </tr>
+                                    <tr>
+                                      <td>Fourth Year Project</td>
+                                      <td>Available on Sept 2023</td>
+                                      <td>10</td>
                                     </tr>
                                   </tbody>
-                                </table>                                
+                                </table>                            
                               </div>
                             </div>
                           </div>
-                    </div>
-                </div>
-            </section>
-        </div>
+                          <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingTwo">
+                              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#CollapseTwoTUD" aria-expanded="false" aria-controls="CollapseTwoTUD">
+                                Year 3
+                              </button>
+                            </h2>
+                            <div id="CollapseTwoTUD" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#tudAccordion">
+                              <div class="accordion-body">
+                                <table class="table">
+                                  <thead>
+                                    <tr>
+                                      <th scope="col">Module</th>
+                                      <th scope="col">Grade</th>
+                                      <th scope="col">Credits</th>
+                                    </tr>
+                                  </thead>
+                                  <tbody>
+                                    <tr>
+                                      <td>Cloud Services & Distributed Computing</td>
+                                      <td>A</td>
+                                      <td>5</td>
+                                    </tr>
+                                    <tr>
+                                      <td>Big Data Technologies</td>
+                                      <td>A</td>
+                                      <td>5</td>
+                                    </tr>
+                                    <tr>
+                                      <td>Advanced Routing & Switching</td>
+                                      <td>A</td>
+                                      <td>5</td>
+                                    </tr>
+                                    <tr>
+                                      <td>Server-Side Web Development</td>
+                                      <td>A</td>
+                                      <td>5</td>
+                                    </tr>
+                                    <tr>
+                                      <td>Operating Systems</td>
+                                      <td>A</td>
+                                      <td>5</td>
+                                    </tr>
+                                    <tr>
+                                      <td>Internship</td>
+                                      <td>PASS</td>
+                                      <td>30</td>
+                                    </tr>
+                                  </tbody>
+                                </table>                              
+                              </div>
+                            </div>
+                          </div>
+                          <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingThree">
+                              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#CollapseThreeTUD" aria-expanded="false" aria-controls="CollapseThreeTUD">
+                                Year 2
+                              </button>
+                            </h2>
+                            <div id="CollapseThreeTUD" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#tudAccordion">
+                              <div class="accordion-body">
+                                <table class="table">
+                                  <thead>
+                                    <tr>
+                                      <th scope="col">Module</th>
+                                      <th scope="col">Grade</th>
+                                      <th scope="col">Credits</th>
+                                    </tr>
+                                  </thead>
+                                  <tbody>
+                                    <tr>
+                                      <td>Data Administration and Analysis</td>
+                                      <td>A</td>
+                                      <td>5</td>
+                                    </tr>
+                                    <tr>
+                                      <td>Management Science</td>
+                                      <td>A</td>
+                                      <td>5</td>
+                                    </tr>
+                                    <tr>
+                                      <td>Routing & Switching Essentials</td>
+                                      <td>A</td>
+                                      <td>5</td>
+                                    </tr>
+                                    <tr>
+                                      <td>Information Security</td>
+                                      <td>A</td>
+                                      <td>5</td>
+                                    </tr>
+                                    <tr>
+                                      <td>IT Service Management</td>
+                                      <td>B+</td>
+                                      <td>5</td>
+                                    </tr>
+                                    <tr>
+                                      <td>Second Year Project</td>
+                                      <td>A</td>
+                                      <td>5</td>
+                                    </tr>
+                                    <tr>
+                                      <td>Discrete Mathematics 2</td>
+                                      <td>A</td>
+                                      <td>5</td>
+                                    </tr>
+                                    <tr>
+                                      <td>Network Fundamentals</td>
+                                      <td>A</td>
+                                      <td>5</td>
+                                    </tr>
+                                    <tr>
+                                      <td>Software Quality Assurance and Testing</td>
+                                      <td>A</td>
+                                      <td>5</td>
+                                    </tr>
+                                    <tr>
+                                      <td>Client-Side Web Development</td>
+                                      <td>A</td>
+                                      <td>5</td>
+                                    </tr>
+                                    <tr>
+                                      <td>Advanced Database Technologies</td>
+                                      <td>A</td>
+                                      <td>5</td>
+                                    </tr>
+                                    <tr>
+                                      <td>IT Scripting & Automation</td>
+                                      <td>A</td>
+                                      <td>5</td>
+                                    </tr>
+                                  </tbody>
+                                </table>                              
+                              </div>
+                            </div>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="educationCCT">
+                      <img img src="./img/CCT_Logo.jpg" alt="CCT Logo" id="cctlogo">
+                      <p>CCT Logo Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veritatis nam, neque consequatur exercitationem assumenda, libero totam soluta earum numquam dolorem distinctio harum iste repellendus quia commodi minima quis facere a ipsa ea officia aliquam alias? Consectetur, commodi est, voluptates totam facere cupiditate voluptatem mollitia, ullam ab tenetur aliquam. Incidunt adipisci voluptatem odit? Voluptatum facilis ex rem maxime, animi nobis incidunt voluptate aliquam, laudantium quo non minus veniam iusto dolorem dignissimos sint reiciendis facere repudiandae saepe. Ipsa explicabo necessitatibus illum porro esse, veritatis, commodi ratione modi quis id, dolor aliquam! Atque voluptas temporibus, illo rerum magni iure saepe vero magnam itaque.</p>
+                      <div class="accordion" id="cctAccordion">
+                          <div class="accordion-item">
+                              <h2 class="accordion-header" id="headingOne">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#CollapseOneCCT" aria-expanded="true" aria-controls="CollapseOneCCT">
+                                  Year 1
+                                </button>
+                              </h2>
+                              <div id="CollapseOneCCT" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#tudAccordion">
+                                <div class="accordion-body">
+                                  <table class="table">
+                                    <thead>
+                                      <tr>
+                                        <th scope="col">Module</th>
+                                        <th scope="col">Grade</th>
+                                        <th scope="col">Credits</th>
+                                      </tr>
+                                    </thead>
+                                    <tbody>
+                                      <tr>
+                                        <td>Data Communications</td>
+                                        <td>88</td>
+                                        <td>5</td>
+                                      </tr>
+                                      <tr>
+                                        <td>Computing Systems and Principles</td>
+                                        <td>93</td>
+                                        <td>5</td>
+                                      </tr>
+                                      <tr>
+                                        <td>Digital Technology and Learning</td>
+                                        <td>71</td>
+                                        <td>5</td>
+                                      </tr>
+                                      <tr>
+                                        <td>Web Design</td>
+                                        <td>71</td>
+                                        <td>5</td>
+                                      </tr>
+                                      <tr>
+                                        <td>Network Technology</td>
+                                        <td>79</td>
+                                        <td>5</td>
+                                      </tr>
+                                      <tr>
+                                        <td>Business Information Systems</td>
+                                        <td>80</td>
+                                        <td>5</td>
+                                      </tr>
+                                      <tr>
+                                        <td>Computer Programming</td>
+                                        <td>53</td>
+                                        <td>15</td>
+                                      </tr>
+                                      <tr>
+                                        <td>Mathematics for Computing</td>
+                                        <td>79</td>
+                                        <td>15</td>
+                                      </tr>
+                                    </tbody>
+                                  </table>                                
+                                </div>
+                              </div>
+                            </div>
+                      </div>
+                  </div>
+              </section>
+          </div>
 
-        <div class="projects">
-            <section class="projects-text">
-                <h2>Projects Section</h2>
-                <div class="projects-card">
-                    <div class="card" style="width: 18rem;">
-                        <img src="./img/elitegroup.png" class="card-img-top" alt="...">
-                        <div class="card-body">
-                        <h5 class="card-title">Web Design Project</h5>
-                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur ipsa expedita asperiores temporibus facere odio dicta voluptatum accusantium, soluta esse?</p>
-                        <a href="#" class="btn btn-primary">More.....</a>
-                        </div>
-                    </div>
+          <div class="projects" id="projects_id">
+              <section class="projects-text">
+                  <h2>Projects Section</h2>
+                  <div class="projects-card">
+                      <div class="card" style="width: 18rem;">
+                          <img src="./img/elitegroup.png" class="card-img-top" alt="...">
+                          <div class="card-body">
+                          <h5 class="card-title">Web Design Project</h5>
+                          <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur ipsa expedita asperiores temporibus facere odio dicta voluptatum accusantium, soluta esse?</p>
+                          <a href="#" class="btn btn-primary">More.....</a>
+                          </div>
+                      </div>
 
-                    <div class="card" style="width: 18rem;">
-                        <img src="./img/Mobile_phone_review_system.png" class="card-img-top" alt="...">
-                        <div class="card-body">
-                        <h5 class="card-title">Phone review system</h5>
-                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores repudiandae explicabo, voluptas illum ex fuga!</p>
-                        <a href="#" class="btn btn-primary">More.....</a>
-                        </div>
-                    </div>
-                </div>
+                      <div class="card" style="width: 18rem;">
+                          <img src="./img/Mobile_phone_review_system.png" class="card-img-top" alt="...">
+                          <div class="card-body">
+                          <h5 class="card-title">Phone review system</h5>
+                          <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores repudiandae explicabo, voluptas illum ex fuga!</p>
+                          <a href="#" class="btn btn-primary">More.....</a>
+                          </div>
+                      </div>
+                  </div>
+                  <p>Lorem ipsum dolor sit amet</p>
+              </section>
+          </div>
+
+          <div class="skills" id="skills_id">
+            <section class="skills-text">
+                <h2>Skills Section</h2>
                 <p>Lorem ipsum dolor sit amet</p>
             </section>
-        </div>
+          </div>
 
-        <div class="skills">
-          <section class="skills-text">
-              <h2>Skills Section</h2>
-              <p>Lorem ipsum dolor sit amet</p>
-          </section>
-        </div>
+          <div class="contactme" id="contactme_id">
+              <section class="contactme-text">
+                  <h2>Contact Section</h2>
+                  <div class="contactme-box">
+                    <form>
+                      <div class="mb-3">
+                        <label for="contactform_name" class="form-label">Full name</label>
+                        <input type="text" class="form-control" id="contactform_name">
+                      </div>
+                      <div class="mb-3">
+                        <label for="contactform_email" class="form-label">Email address</label>
+                        <input type="email" class="form-control" id="contactform_email">
+                      </div>
+                      <div class="mb-3">
+                        <label for="contactform_textarea" class="form-label">Message: </label>
+                        <textarea class="form-control" id="contactform_textarea" rows="3"></textarea>
+                      </div>
+                      <button type="submit" class="btn btn-primary">Submit</button>
+                    </form>
+                  </div>
 
-        <div class="contactme">
-            <section class="contactme-text">
-                <h2>Contact Section</h2>
-                <p>Lorem ipsum dolor sit amet</p>
-            </section>
-        </div>
+                  <div class="contactme-box">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d19077.275880598274!2d-6.38337185!3d53.295634549999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sie!4v1671359074140!5m2!1sen!2sie" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                  </div>
+
+              </section>
+          </div>
     </main>
 
     <footer>
