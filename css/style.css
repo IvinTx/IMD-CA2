@@ -16,14 +16,6 @@ main {
     padding-right: 2px;
 }
 
-/*
-.hero {
-    padding: 2em;
-    background-color: cadetblue;
-    background-image: url(../img/firewatch_blue_forest.jfif); 
-    background-repeat: no-repeat;
-}
-*/
 .hero {
     position: relative;
     width: 100%;
@@ -36,11 +28,11 @@ main {
     left: 0;
     width: 100%;
     height: 100%;
-    background: url(../img/image-frosty-lake.jpg);
+    background: url(../img/dark-blue-technology-background-free-vector.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
-    /*filter: blur(3px);*/
+    filter: blur(4px);
 }
 
 .hero-text {
@@ -49,14 +41,13 @@ main {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: white;
+    color: rgb(0, 0, 0);
 }
 
 .img-circle {
-  /*border-radius: 50%;
-  border-radius: 8px;
+  border-radius: 50%;
   width: 30%;
-  height: 30%;*/
+  height: 30%;
 }
 
 .content{
@@ -112,14 +103,10 @@ main {
     align-items: center;
 }
 
-#tudlogo {
+#tudlogo, #cctlogo {
     width: 100px;
     height: auto;
-}
-
-#cctlogo {
-    width: 100px;
-    height: auto;
+    padding-bottom: 10px;
 }
 
 #awslogo {
@@ -135,4 +122,41 @@ main {
 .card {
     padding: 1em;
     margin: 1em;
+}
+
+.main-bs {
+    padding: 2rem;
+    margin: 3rem;
+    height: 100vh;
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+}
+
+.title {
+    text-align: center;
+}
+
+.progress-title {
+    font-size: 16px;
+    font-weight: 700;
+    color: rgb(0, 0, 0);
+    margin: 0 0 20px
+}
+
+.progress {
+    height: 20px;
+    background: rgb(0, 0, 0);
+    border-radius: 0;
+    box-shadow: none;
+    margin-bottom: 30px;
+    overflow: visible
+}
+
+.progress, .progress-bar{
+    border-radius: 10px;
+}
+
+.progress-value {
+    color: rgb(255, 255, 255);
 }
