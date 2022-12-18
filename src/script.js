@@ -1,0 +1,1 @@
+let scrollSpy = new bootstrap.ScrollSpy(document.body, { target: '#website_navbar' })
